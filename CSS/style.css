@@ -90,6 +90,7 @@
     
     .footer__logos{
         max-width: 20px;
+        box-shadow: 5px 5px 5px black;
     }
 
     .logos{
@@ -192,6 +193,7 @@
 .informacion__img{
     width: 100%
 }
+
 
 /* comienza la página de ubicación */
 
