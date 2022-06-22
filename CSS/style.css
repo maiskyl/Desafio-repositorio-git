@@ -325,6 +325,9 @@
         flex-wrap: nowrap;
     }
 
+    #footer{
+        background-image: linear-gradient(rgb(111, 43, 43), black)
+    }
 
 /* modificaciones de los productos */
 
