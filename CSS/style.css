@@ -385,7 +385,8 @@
 
 
 
-    .productos__tarjeta{
+    .productos__tarjeta:hover {
+        transform: scale(1.03);
         transition-duration: 1s;
     }
 
