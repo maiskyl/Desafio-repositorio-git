@@ -314,6 +314,34 @@
         justify-content: space-around;
     }
 
+    #logo-whatsapp{
+        max-width: 70px;
+        position: fixed;
+        bottom: 30px;
+        right: 15px;
+
+        animation-name: logoDeWhatsapp;
+        animation-duration: 5s;
+    }
+
+    @keyframes logoDeWhatsapp {
+
+        0% {
+            transform: rotate(0deg)
+        }
+
+
+        50% {
+            transform: rotate(360deg)
+        }
+
+
+        100% {
+            transform: rotate(0deg)
+        }
+        
+    }
+
 
 /* modificaciones del index */
 
@@ -356,8 +384,9 @@
     }
 
 
-    .productos__lista{
-        display: block
+
+    .productos__tarjeta{
+        transition-duration: 1s;
     }
 
 /* modificaciones de información */
